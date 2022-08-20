@@ -1,0 +1,213 @@
+.iscript_extraMessage
+{
+	text-align: left;
+	width: 90%;
+	display: inline-block;
+	margin-bottom: 0.5em;
+	font-style: italic;
+}
+.is-mobile .iscript_extraMessage
+{
+    margin-top: 1em;
+}
+.iscript_onSiblings:only-child
+{
+	display: none;
+}
+.iscript_shortcutFiles
+{
+	margin-bottom: 1em;
+	text-align: right;
+	margin-top: -1em;
+}
+.iscript_shortcuts
+{
+	margin-bottom: 1em;
+	text-align: right;
+}
+.iscript_shortcutFile
+{
+	margin-bottom: 1em;
+}
+.iscript_shortcutFileAddress
+{
+	width: calc(90% - 9em);
+	display: inline !important;
+}
+.is-mobile .iscript_shortcutFileAddress
+{
+	width: calc(90% - 6.6em) !important;
+}
+.iscript_badInput
+{
+	background-color: darkred !important;
+}
+.iscript_shortcut
+{
+	margin-bottom: 2em;
+}
+.iscript_shortcutTest
+{
+	width: calc(90% - 5.9em);
+	display: inline !important;
+}
+.is-mobile .iscript_shortcutTest
+{
+	width: calc(90% - 6.6em) !important;
+}
+.iscript_shortcutExpansion, .iscript_shortcutAbout
+{
+	width: 90%;
+	margin-top: 0.2em;
+	background: var(--background-modifier-form-field);
+	height: 6em;
+}
+.iscript_shortcutAbout
+{
+	height: 4.5em;
+}
+.iscript_deleteButton, .iscript_upButton, .iscript_downButton
+{
+	margin: 0;
+	margin-left: 0.2em;
+	padding: 0.5em;
+	width: auto !important;
+}
+.iscript_deleteButton:before
+{
+	content: "🗑";
+	display: inline;
+}
+.iscript_upButton:before
+{
+	content: "▲";
+	display: inline;
+}
+.iscript_downButton:before
+{
+	content: "▼";
+	display: inline;
+}
+.iscript_errMsgContainer
+{
+	background-color: Red;
+	display: none;
+}
+.iscript_errMsgContainerShown
+{
+	display: inherit;
+}
+.iscript_errMsgTitle
+{
+	font-weight: bold;
+	margin: 0 1em;
+}
+.iscript_settingBundled
+{
+	border: 0;
+	padding: 0;
+}
+.iscript_settingBundledTop
+{
+	padding-bottom: 0;
+}
+.iscript_labelControl
+{
+	border: 1px solid var(--background-modifier-border);
+	color: var(--text-normal);
+	font-family: inherit;
+	padding: 5px 14px;
+	font-size: 16px;
+	border-radius: 4px;
+	outline: none;
+	height: 30px;
+	width: 252px;
+	text-align: left;
+}
+.is-mobile .iscript_labelControl
+{
+	width: 100%;
+}
+.iscript_warning
+{
+	background-color: red;
+	color: white;
+}
+#iscript_inputBlocker
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.75;
+	z-index: 999;
+	transition: opacity 1s;
+}
+.iscript_version
+{
+	text-align: right;
+}
+.iscript_version + h2
+{
+	margin-top: 0;
+}
+.iscript_button
+{
+	margin-left: .25em !important;
+}
+.iscript_checkbox
+{
+	margin-right: 0.5em;
+	margin-bottom: -0.3em;
+}
+.iscript_popup input, .iscript_popup select
+{
+	width: 100%;
+	max-width: unset !important;
+}
+.iscript_popup
+{
+	padding: 1em;
+	padding-top: 2.5em;
+}
+.iscript_popup .setting-item
+{
+	border-top: none;
+}
+.iscript_suggestionDescription
+{
+	background-color: #16172b;
+	position: absolute;
+	padding: 0 0.75em;
+	border-radius: 4px;
+	border: 1px solid var(--background-modifier-border);
+	width: auto !important;
+	height: auto !important;
+	left: 2em;
+	right: 2em;
+	bottom: 1em;
+	display: none;
+	z-index: 100;
+}
+.iscript_suggestionDescription_above
+{
+	bottom: unset;
+	top: 3em;
+}
+.iscript_suggestionHighlight
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.iscript_shortcutFileAddress::-webkit-calendar-picker-indicator
+{
+	position: relative;
+	top: -.25em;
+	right: -.5em;
+}
+.iscript_preFadein
+{
+	opacity: 0.0 !important;
+}
