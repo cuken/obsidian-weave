@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiFileEditLine",
       "IbFlag",
       "FarHand",
       "RiHandHeartLine",
-      "RiSortAsc",
-      "RiContactsBookLine"
+      "RiSortAsc"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -21,7 +21,10 @@
     }
   },
   "System": "RiSettings2Line",
-  "System/Templates": "IbDocumentCode",
+  "System/Templates": {
+    "iconName": "RiFileEditLine",
+    "inheritanceIcon": "RiFileEditLine"
+  },
   "Daily": "FarClock",
   "System/Media": "IbPhoto",
   "Meetings": "RiCalendarLine",
