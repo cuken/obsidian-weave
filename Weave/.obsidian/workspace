@@ -4,11 +4,27 @@
     "type": "split",
     "children": [
       {
-        "id": "264b6b88f53b420f",
+        "id": "40f93002b4f47d34",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Task Overview.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "97ec2eec7a975676",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Contact Overview.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -73,6 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Task Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Task Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +128,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Task Overview.md"
+              }
             }
           },
           {
@@ -136,6 +156,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2c1f2a42575c8282",
-  "lastOpenFiles": []
+  "active": "40f93002b4f47d34",
+  "lastOpenFiles": [
+    "Getting Started.md",
+    "Contact Overview.md",
+    "Application Overview.md",
+    "Task Overview.md",
+    "0 - Welcome.md"
+  ]
 }

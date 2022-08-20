@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RiWindowLine",
-      "RiContactsLine",
-      "RiCalendarLine",
-      "RiSettings2Line",
-      "IbPhoto"
+      "IbFlag",
+      "FarHand",
+      "RiHandHeartLine",
+      "RiSortAsc",
+      "RiContactsBookLine"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -32,5 +32,9 @@
   "Applications": {
     "iconName": "RiWindowLine",
     "inheritanceIcon": "RiWindowLine"
-  }
+  },
+  "Application Overview.md": "RiCheckboxMultipleBlankLine",
+  "Contact Overview.md": "RiContactsBookLine",
+  "Task Overview.md": "RiSortAsc",
+  "Getting Started.md": "IbFlag"
 }
