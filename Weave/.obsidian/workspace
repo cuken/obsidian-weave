@@ -21,7 +21,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Contact Overview.md",
+            "file": "Application Overview.md",
             "mode": "source",
             "source": false
           }
@@ -159,9 +159,9 @@
   "active": "40f93002b4f47d34",
   "lastOpenFiles": [
     "Application Overview.md",
-    "Getting Started.md",
-    "Task Overview.md",
     "Contact Overview.md",
+    "Task Overview.md",
+    "Getting Started.md",
     "0 - Welcome.md"
   ]
 }
