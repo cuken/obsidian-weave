@@ -5,9 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FarClock",
-      "IbDocumentCode",
-      "RiToolsLine"
+      "RiWindowLine",
+      "RiContactsLine",
+      "RiCalendarLine",
+      "RiSettings2Line",
+      "IbPhoto"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -18,7 +20,17 @@
       "left": 2
     }
   },
-  "System": "RiToolsLine",
+  "System": "RiSettings2Line",
   "System/Templates": "IbDocumentCode",
-  "Daily": "FarClock"
+  "Daily": "FarClock",
+  "System/Media": "IbPhoto",
+  "Meetings": "RiCalendarLine",
+  "Contacts": {
+    "iconName": "RiContactsLine",
+    "inheritanceIcon": "RiContactsLine"
+  },
+  "Applications": {
+    "iconName": "RiWindowLine",
+    "inheritanceIcon": "RiWindowLine"
+  }
 }
