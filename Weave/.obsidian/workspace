@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Task Overview.md",
+            "file": "Getting Started.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Task Overview.md",
+                "file": "Getting Started.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Task Overview.md",
+                "file": "Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Task Overview.md"
+                "file": "Getting Started.md"
               }
             }
           },
@@ -158,10 +158,10 @@
   },
   "active": "40f93002b4f47d34",
   "lastOpenFiles": [
-    "Getting Started.md",
-    "Contact Overview.md",
     "Application Overview.md",
+    "Getting Started.md",
     "Task Overview.md",
+    "Contact Overview.md",
     "0 - Welcome.md"
   ]
 }
