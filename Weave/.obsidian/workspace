@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Meetings/General/2022-08-20 - Intro to Weave.md",
+            "file": "Daily/2022-08-21.md",
             "mode": "source",
             "source": false
           }
@@ -89,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meetings/General/2022-08-20 - Intro to Weave.md",
+                "file": "Daily/2022-08-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meetings/General/2022-08-20 - Intro to Weave.md",
+                "file": "Daily/2022-08-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meetings/General/2022-08-20 - Intro to Weave.md"
+                "file": "Daily/2022-08-21.md"
               }
             }
           },
@@ -156,7 +156,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c6c6b582d57347e8",
+  "active": "2c567a77b4fcdec8",
   "lastOpenFiles": [
     "Contacts/John Smith.md",
     "Applications/Demo/Demo.md",
