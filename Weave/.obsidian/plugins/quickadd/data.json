@@ -1,32 +1,69 @@
 {
   "choices": [
     {
-      "id": "14a9699b-ed9d-48db-a3c2-f9beb14fb390",
-      "name": "Template - Add Application",
-      "type": "Template",
-      "command": true,
-      "templatePath": "System/Templates/application.md",
-      "fileNameFormat": {
-        "enabled": true,
-        "format": "{{VALUE}}"
-      },
-      "folder": {
-        "enabled": true,
-        "folders": [
-          "Applications"
-        ],
-        "chooseWhenCreatingNote": false,
-        "createInSameFolderAsActiveFile": false
-      },
-      "appendLink": false,
-      "incrementFileName": false,
-      "openFileInNewTab": {
-        "enabled": true,
-        "direction": "vertical",
-        "focus": true
-      },
-      "openFile": true,
-      "openFileInMode": "default"
+      "id": "eb8b77f5-700c-43ec-9d4a-6c9fe3d2a8d8",
+      "name": "Templates",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "877a1a66-88ca-496b-bcc4-b6fcbc199d50",
+          "name": "Template - Add Contact",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/contact.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Contacts"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "14a9699b-ed9d-48db-a3c2-f9beb14fb390",
+          "name": "Template - Add Application",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/application.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Applications"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
     }
   ],
   "macros": [],

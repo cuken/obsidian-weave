@@ -1,5 +1,5 @@
 ---
-tags: contact
+tags: contact overview
 ---
 
 # [[Contact Overview]]

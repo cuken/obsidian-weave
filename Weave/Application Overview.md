@@ -1,5 +1,5 @@
 ---
-tags: application
+tags: application overview
 ---
 
 # [[Application Overview]]
@@ -11,5 +11,5 @@ tags: application
 > Consider modifying the query below to pull the metadata for each application that matters to you.
 
 ```dataview
-table company as "Company", business_unit as "Business Unit", task_tag as "Task Tag" from "Applications"
+table company as "Company", business_unit as "Business Unit", task_tag as "Task Tag", summary as "Summary" from "Applications"
 ```
