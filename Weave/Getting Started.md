@@ -29,11 +29,13 @@ Weave uses these "Applications" to help sort your daily log, as well as track ta
 - [ ] Try the Quick Add command to create a new application
 	- [ ] Hit `ctrl + p`  or `cmd + p` and type "Application"
 	- [ ] In the command pallete list you should have an option for "Template - Add Application"
-	- [ ] The new Application should be generated in your Application folder
+	- [ ] The new Application should be generated in your Application folder, with it's own folder matching the application name you provided.
+	- [ ] Try adding an application specific note:
+		- [ ] This command **MUST** be run from within the application note you want the note added to (example, be inside the [[Demo]] note before running the command)
+		- [ ] Hit `Ctrl/Cmd + p` and type 'Application Note'
+		- [ ] In the command pallete list you should have an option for "Template - Add Application Note"
+		- [ ] Fill out a name and begin adding notes to the application
 - [ ] Review [[Application Overview]] again, the new application should already be in the list
-
-> [!question] Lots of Applications?
-> If you work with or need to track state across a lot of applications, you may want to set up subfolders within the Applications folder. You can modify the `Template - Add Application` quick add setting to prompt you for the folder to save the application in. By default, the action will drop a note into the root of the Applications Directory.
 
 > [!important] 
 > Weave uses the concept of Applications heavily in a lot of it's templates. If Applications are not relevant to what your doing, consider changing it to a high level organizable unit like "Projects" or "Initiaves". Make sure you update all relevant templates and community plugin settings with whatever you decide to use.

@@ -47,10 +47,36 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "Applications"
+              "Applications/{{VALUE}}"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "875147aa-2fe2-4254-aa8d-01534434eea0",
+          "name": "Template - Add Application Note",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/application_note.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": true
           },
           "appendLink": false,
           "incrementFileName": false,

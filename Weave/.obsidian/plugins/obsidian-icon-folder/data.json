@@ -32,10 +32,7 @@
     "iconName": "RiContactsLine",
     "inheritanceIcon": "RiContactsLine"
   },
-  "Applications": {
-    "iconName": "RiWindowLine",
-    "inheritanceIcon": "RiWindowLine"
-  },
+  "Applications": "RiWindowLine",
   "Application Overview.md": "RiCheckboxMultipleBlankLine",
   "Contact Overview.md": "RiContactsBookLine",
   "Task Overview.md": "RiSortAsc",
