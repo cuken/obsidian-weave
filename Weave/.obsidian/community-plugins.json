@@ -1,19 +1,15 @@
 [
-  "obsidian-admonition",
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-kanban",
   "dataview",
   "calendar",
   "table-editor-obsidian",
   "obsidian-outliner",
-  "obsidian-git",
   "nldates-obsidian",
   "obsidian-tasks-plugin",
   "obsidian-checklist-plugin",
   "quickadd",
   "obsidian-icon-folder",
   "buttons",
-  "obsidian-plantuml",
   "obsidian-text-expander-js"
 ]
