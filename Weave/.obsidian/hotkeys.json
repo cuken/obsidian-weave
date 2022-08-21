@@ -1,1 +1,21 @@
-{}
+{
+  "nldates-obsidian:nlp-time": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "quickadd:choice:4fb3c936-275d-4241-b5ec-b5d9929b5a2e": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ]
+}

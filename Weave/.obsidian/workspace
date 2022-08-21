@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d0757e3e5f2bd422",
+        "id": "0c7902ac4e5bdf5f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Getting Started.md",
+            "file": "Contacts/John Smith.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Contacts/John Smith.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Contacts/John Smith.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Getting Started.md"
+                "file": "Contacts/John Smith.md"
               }
             }
           },
@@ -144,16 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d0757e3e5f2bd422",
+  "active": "0c7902ac4e5bdf5f",
   "lastOpenFiles": [
+    "Daily/2022-08-20.md",
+    "Applications/Demo.md",
+    "Meetings/General/2022-08-20 - Intro to Weave.md",
     "Contacts/John Smith.md",
     "Getting Started.md",
-    "System/Templates/contact.md",
-    "Application Overview.md",
-    "Contact Overview.md",
-    "System/Templates/application.md",
-    "Task Overview.md",
-    "Applications/Demo.md",
-    "0 - Welcome.md"
+    "System/Templates/meeting_team.md",
+    "System/Templates/meeting_standup.md",
+    "System/Templates/meeting_general.md",
+    "System/Templates/daily.md",
+    "System/Templates/contact.md"
   ]
 }

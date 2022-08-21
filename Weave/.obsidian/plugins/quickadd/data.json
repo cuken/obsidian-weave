@@ -61,6 +61,133 @@
           },
           "openFile": true,
           "openFileInMode": "default"
+        },
+        {
+          "id": "55a2da7b-a137-4b75-b147-0404a0d37f93",
+          "name": "Template - General Meeting",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/meeting_general.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY-MM-DD}} - {{VALUE}}"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Meetings/General"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "f46632a2-f68a-4b0a-b43f-4bdeb7d75a7f",
+          "name": "Template - Standup Meeting",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/meeting_standup.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY-MM-DD}} - Standup"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Meetings/Standup"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        },
+        {
+          "id": "b79a53ed-86b2-4945-a834-d2b2b5fa2f1e",
+          "name": "Template - Team Meeting",
+          "type": "Template",
+          "command": true,
+          "templatePath": "System/Templates/meeting_team.md",
+          "fileNameFormat": {
+            "enabled": true,
+            "format": "{{DATE:YYYY-MM-DD}} - Team Meeting"
+          },
+          "folder": {
+            "enabled": true,
+            "folders": [
+              "Meetings/Team"
+            ],
+            "chooseWhenCreatingNote": false,
+            "createInSameFolderAsActiveFile": false
+          },
+          "appendLink": false,
+          "incrementFileName": false,
+          "openFileInNewTab": {
+            "enabled": true,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": true,
+          "openFileInMode": "default"
+        }
+      ],
+      "collapsed": false
+    },
+    {
+      "id": "f2dbf2b1-a78a-4746-a3db-d7b1ba581c0e",
+      "name": "Captures",
+      "type": "Multi",
+      "command": false,
+      "choices": [
+        {
+          "id": "4fb3c936-275d-4241-b5ec-b5d9929b5a2e",
+          "name": "Capture - Add to Daily Task",
+          "type": "Capture",
+          "command": true,
+          "appendLink": false,
+          "captureTo": "Daily/{{DATE:YYYY-MM-DD}}",
+          "captureToActiveFile": false,
+          "createFileIfItDoesntExist": {
+            "enabled": true,
+            "createWithTemplate": true,
+            "template": "System/Templates/daily"
+          },
+          "format": {
+            "enabled": true,
+            "format": "#task {{VALUE}}"
+          },
+          "insertAfter": {
+            "enabled": true,
+            "after": "#### New Today",
+            "insertAtEnd": true,
+            "createIfNotFound": false,
+            "createIfNotFoundLocation": "top"
+          },
+          "prepend": false,
+          "task": true,
+          "openFileInNewTab": {
+            "enabled": false,
+            "direction": "vertical",
+            "focus": true
+          },
+          "openFile": false,
+          "openFileInMode": "default"
         }
       ],
       "collapsed": false
