@@ -13,7 +13,7 @@ type: daily_note
 
 not done
 
-due before <% tp.date.now("YYYY-MM-DD") %>
+due before <% tp.file.title %>
 
 ```
 
@@ -22,7 +22,7 @@ due before <% tp.date.now("YYYY-MM-DD") %>
 
 not done
 
-due on <% tp.date.now("YYYY-MM-DD") %>
+due on <% tp.file.title %>
 
 path does not include Templates
 
@@ -36,7 +36,7 @@ path does not include Templates
 
 ```dataview
 table start_time as "Start Time", end_time as "End Time", duration as "Duration" from "Meetings"
-where date(date) = date(<% tp.date.now("YYYY-MM-DD") %>)
+where date(date) = date(<% tp.file.title %>)
 ```
 ## Daily Log
 
@@ -69,10 +69,8 @@ where date(date) = date(<% tp.date.now("YYYY-MM-DD") %>)
 ```tasks
 
 not done
-
 no due date
-
-path does not include Templates
+path does not include System
 
 ```
 
@@ -80,8 +78,8 @@ path does not include Templates
 
 ```tasks
 
-done on <% tp.date.now("YYYY-MM-DD") %>
+done on <% tp.file.title %>
 
-path does not include Templates
+path does not include System
 
 ```
