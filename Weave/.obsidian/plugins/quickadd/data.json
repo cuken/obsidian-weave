@@ -101,7 +101,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "Meetings/General"
+              "Meetings/{{DATE:YYYY}}/{{DATE:MM}}/{{DATE:DD}}"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false
@@ -109,7 +109,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -129,7 +129,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "Meetings/Standup"
+              "Meetings/{{DATE:YYYY}}/{{DATE:MM}}/{{DATE:DD}}"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false
@@ -137,7 +137,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },
@@ -157,7 +157,7 @@
           "folder": {
             "enabled": true,
             "folders": [
-              "Meetings/Team"
+              "Meetings/{{DATE:YYYY}}/{{DATE:MM}}/{{DATE:DD}}"
             ],
             "chooseWhenCreatingNote": false,
             "createInSameFolderAsActiveFile": false
@@ -165,7 +165,7 @@
           "appendLink": false,
           "incrementFileName": false,
           "openFileInNewTab": {
-            "enabled": true,
+            "enabled": false,
             "direction": "vertical",
             "focus": true
           },

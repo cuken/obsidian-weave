@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Minimal"
+  "cssTheme": "Primary",
+  "theme": "obsidian",
+  "translucency": false
 }

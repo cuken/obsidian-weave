@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d71e9ca13b8dcc94",
+        "id": "2900ab4706cfe59e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System/Templates/daily.md",
+            "file": "System/Templates/meeting_team.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System/Templates/daily.md",
+                "file": "System/Templates/meeting_team.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System/Templates/daily.md",
+                "file": "System/Templates/meeting_team.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System/Templates/daily.md"
+                "file": "System/Templates/meeting_team.md"
               }
             }
           },
@@ -144,17 +144,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c6c6b582d57347e8",
+  "active": "2900ab4706cfe59e",
   "lastOpenFiles": [
-    "Task Overview.md",
-    "Getting Started.md",
-    "Contact Overview.md",
-    "Application Overview.md",
-    "Applications/Demo/Demo.md",
-    "Applications/Demo/Secret to the Mystery.md",
-    "Contacts/John Smith.md",
-    "Daily/2022-08-22.md",
-    "Applications/VIPER/Infrastructure documents.md",
-    "Applications/VIPER/VIPER.md"
+    "System/Templates/meeting_general.md",
+    "System/Templates/meeting_standup.md",
+    "System/Templates/start_time.md",
+    "Meetings/2022/08/25/2022-08-25 - test4.md",
+    "Meetings/2022/08/25/2022-08-25 - New Meeting Date Structure.md",
+    "Meetings/2022/08/25/2022-08-25 - Test.md",
+    "System/Templates/stop_time.md",
+    "System/Templates/meeting_team.md",
+    "Meetings/2022/08/25/2022-08-25 - Test3.md",
+    "System/Templates/daily.md"
   ]
 }
