@@ -14,6 +14,14 @@ table type AS "Type", created AS "Created", modified AS "Modified" from "Applica
 where type != "application"
 ```
 
+## Meetings
+
+```dataview
+TABLE Host, summary as "Summary", date as "Date" from "Meetings"
+where contains(Application_Tag, "<% tp.file.title %>")
+sort date desc
+```
+
 ## Tasks
 
 ```tasks

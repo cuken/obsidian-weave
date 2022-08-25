@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "System/Templates/meeting_team.md",
+            "file": "System/Templates/application.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#demo2",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System/Templates/meeting_team.md",
+                "file": "System/Templates/application.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System/Templates/meeting_team.md",
+                "file": "System/Templates/application.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System/Templates/meeting_team.md"
+                "file": "System/Templates/application.md"
               }
             }
           },
@@ -146,15 +146,15 @@
   },
   "active": "2900ab4706cfe59e",
   "lastOpenFiles": [
+    "Applications/Demo/Demo.md",
+    "Meetings/2022/08/25/2022-08-25 - Demo2.md",
+    "Contacts/John Smith.md",
     "System/Templates/meeting_general.md",
+    "System/Templates/meeting_team.md",
     "System/Templates/meeting_standup.md",
     "System/Templates/start_time.md",
     "Meetings/2022/08/25/2022-08-25 - test4.md",
     "Meetings/2022/08/25/2022-08-25 - New Meeting Date Structure.md",
-    "Meetings/2022/08/25/2022-08-25 - Test.md",
-    "System/Templates/stop_time.md",
-    "System/Templates/meeting_team.md",
-    "Meetings/2022/08/25/2022-08-25 - Test3.md",
-    "System/Templates/daily.md"
+    "Meetings/2022/08/25/2022-08-25 - Test.md"
   ]
 }
